@@ -1,8 +1,6 @@
 #ifndef LinkedList_H
 #define LinkedList_H
 
-// https://github.com/ivanseidel/LinkedList/blob/master/LinkedList.h
-
 #include <iostream>
 
 template<class T>
@@ -29,8 +27,6 @@ class LinkedList{
 		~LinkedList();
 
 		virtual int size();
-
-		// virtual T get(int index);
 
 		virtual bool add(int index, T); // Adds at a given Index
 
